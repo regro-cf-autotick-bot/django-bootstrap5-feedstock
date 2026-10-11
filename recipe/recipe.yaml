@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: django-bootstrap5
-  version: '26.3'
+  version: "26.4"
   python_min: '3.10'
 
 package:
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/django_bootstrap5-${{ version }}.tar.gz
-  sha256: 340df3a8ff841e591e7e86d41e49412a19d8af7eb1a5df0cfb8ebfa7c4b5ed8d
+  sha256: 33b6b13096ac22220a84615f389886df19b49508b1e5a6360dd26e8b7b5606fe
 
 build:
   number: 0
